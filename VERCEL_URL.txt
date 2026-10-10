@@ -1,0 +1,8 @@
+ALAMAT WEBSITE VERCEL
+
+Setelah project berhasil dideploy ke Vercel, tempelkan URL hasil deployment di bawah ini:
+
+https://nama-project-kamu.vercel.app
+
+Catatan:
+URL di atas masih contoh. Ganti dengan URL Vercel milikmu setelah deployment.

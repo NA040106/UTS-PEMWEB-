@@ -1,0 +1,62 @@
+[
+  {
+    "route": "/",
+    "firstLoadUncompressedJsBytes": 478325,
+    "firstLoadChunkPaths": [
+      ".next\\static\\chunks\\3-sp_ya47rjt7.js",
+      ".next\\static\\chunks\\1ckvzn7sfprko.js",
+      ".next\\static\\chunks\\2r4s4h5xul1n-.js",
+      ".next\\static\\chunks\\0s7mvllxht1mo.js",
+      ".next\\static\\chunks\\0rm4bmi_uaeqm.js",
+      ".next\\static\\chunks\\turbopack-3-ry682tkyiqk.js"
+    ]
+  },
+  {
+    "route": "/_not-found",
+    "firstLoadUncompressedJsBytes": 478325,
+    "firstLoadChunkPaths": [
+      ".next\\static\\chunks\\3-sp_ya47rjt7.js",
+      ".next\\static\\chunks\\1ckvzn7sfprko.js",
+      ".next\\static\\chunks\\2r4s4h5xul1n-.js",
+      ".next\\static\\chunks\\0s7mvllxht1mo.js",
+      ".next\\static\\chunks\\0rm4bmi_uaeqm.js",
+      ".next\\static\\chunks\\turbopack-3-ry682tkyiqk.js"
+    ]
+  },
+  {
+    "route": "/about",
+    "firstLoadUncompressedJsBytes": 478325,
+    "firstLoadChunkPaths": [
+      ".next\\static\\chunks\\3-sp_ya47rjt7.js",
+      ".next\\static\\chunks\\1ckvzn7sfprko.js",
+      ".next\\static\\chunks\\2r4s4h5xul1n-.js",
+      ".next\\static\\chunks\\0s7mvllxht1mo.js",
+      ".next\\static\\chunks\\0rm4bmi_uaeqm.js",
+      ".next\\static\\chunks\\turbopack-3-ry682tkyiqk.js"
+    ]
+  },
+  {
+    "route": "/berita",
+    "firstLoadUncompressedJsBytes": 478325,
+    "firstLoadChunkPaths": [
+      ".next\\static\\chunks\\3-sp_ya47rjt7.js",
+      ".next\\static\\chunks\\1ckvzn7sfprko.js",
+      ".next\\static\\chunks\\2r4s4h5xul1n-.js",
+      ".next\\static\\chunks\\0s7mvllxht1mo.js",
+      ".next\\static\\chunks\\0rm4bmi_uaeqm.js",
+      ".next\\static\\chunks\\turbopack-3-ry682tkyiqk.js"
+    ]
+  },
+  {
+    "route": "/berita/[id]",
+    "firstLoadUncompressedJsBytes": 478325,
+    "firstLoadChunkPaths": [
+      ".next\\static\\chunks\\3-sp_ya47rjt7.js",
+      ".next\\static\\chunks\\1ckvzn7sfprko.js",
+      ".next\\static\\chunks\\2r4s4h5xul1n-.js",
+      ".next\\static\\chunks\\0s7mvllxht1mo.js",
+      ".next\\static\\chunks\\0rm4bmi_uaeqm.js",
+      ".next\\static\\chunks\\turbopack-3-ry682tkyiqk.js"
+    ]
+  }
+]

@@ -1,0 +1,39 @@
+{
+  "headers": {
+    "x-nextjs-stale-time": "300",
+    "x-nextjs-prerender": "1",
+    "x-next-cache-tags": "_N_T_/layout,_N_T_/berita/layout,_N_T_/berita/[id]/layout,_N_T_/berita/[id]/page,_N_T_/berita/albicy-spekta"
+  },
+  "segmentPaths": [
+    "/_tree",
+    "/_full",
+    "/berita/$d$id/__PAGE__"
+  ],
+  "prefetchHints": {
+    "hints": 64,
+    "slots": {
+      "children": {
+        "hints": 96,
+        "slots": {
+          "children": {
+            "hints": 96,
+            "slots": {
+              "children": {
+                "hints": 160,
+                "slots": null
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "routeCache": {
+    "key": "/route-cache/APP_PAGE/80fdb16ceecb10c4bcfca585ba13799bd86301243ba3982748701aa3826fb9b0/$/berita/albicy-spekta",
+    "owner": {
+      "kind": "APP_PAGE",
+      "sourceRoute": "/berita/[id]/page"
+    },
+    "isFallback": false
+  }
+}
