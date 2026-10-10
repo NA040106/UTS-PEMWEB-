@@ -1,28 +1,28 @@
 # Website Profil SMA Islam Al Azhar 16 BSB Semarang
 
-Project frontend untuk tugas Next.js menggunakan JavaScript, App Router, Tailwind CSS, React Component, `next/link`, layout, dan dynamic route `/berita/[id]`.
+Website profil sekolah yang dikembangkan sebagai tugas mata kuliah menggunakan Next.js. Website ini menampilkan informasi sekolah, program unggulan, serta berita dan kegiatan SMA Islam Al Azhar 16 BSB Semarang.
 
-## 1. Buat project baru
+## Teknologi yang Digunakan
 
-```bash
-npx create-next-app@latest smaza16-nextjs --js --tailwind --eslint --app --src-dir --use-npm
-```
+- Next.js
+- JavaScript
+- App Router
+- React Components
+- Tailwind CSS
+- Next.js Link untuk navigasi internal
 
-Setelah selesai, masuk ke folder project lalu ganti file dengan isi project ini.
+Project ini berfokus pada frontend dan tidak menggunakan database, API, backend, authentication, maupun TypeScript.
 
-```bash
-cd smaza16-nextjs
-npm install
-npm run dev
-```
+## Fitur Website
 
-Buka:
+- **Home (`/`)** — Menampilkan identitas sekolah, slogan, informasi singkat, program unggulan, dan berita terbaru.
+- **About (`/about`)** — Berisi profil, sejarah singkat, visi, misi, fasilitas, dan alamat sekolah.
+- **Berita (`/berita`)** — Menampilkan daftar berita sekolah beserta gambar, tanggal, kategori, dan ringkasan.
+- **Detail Berita (`/berita/[id]`)** — Menampilkan isi berita berdasarkan ID melalui dynamic route Next.js.
+- **Navbar dan Footer** — Digunakan bersama pada seluruh halaman.
+- **Responsive Layout** — Tampilan menyesuaikan ukuran layar desktop maupun perangkat mobile.
 
-```text
-http://localhost:3000
-```
-
-## 2. Struktur utama
+## Struktur Project
 
 ```text
 src/
@@ -45,23 +45,63 @@ src/
     └── berita.js
 ```
 
-## 3. Catatan gambar
+Folder `public/` digunakan untuk menyimpan aset statis, seperti logo dan foto sekolah.
 
-Kode memakai gambar dari website resmi sekolah sebagai sumber visual. Untuk tugas yang meminta semua gambar berada di `public/`, gambar tersebut bisa diunduh dari website resmi lalu disimpan ke `public/images/` dan URL pada `src/data/berita.js`, `src/app/about/page.js`, dan `src/components/Hero.js` dapat diganti menjadi path lokal seperti `/images/sekolah.jpg`.
+## Cara Menjalankan Project
 
-## 4. Fitur yang sudah ada
+### 1. Clone Repository
 
-- Home `/`
-- About `/about`
-- Daftar berita `/berita`
-- Detail berita dynamic route `/berita/[id]`
-- 6 data berita
-- Navbar reusable
-- Footer reusable
-- Hero reusable
-- NewsCard reusable
-- Navigasi internal dengan `next/link`
-- Responsive layout
-- Tailwind CSS
-- JavaScript tanpa TypeScript
-- Tanpa database, API, backend, authentication, atau login
+```bash
+git clone https://github.com/NA040106/UTS-PEMWEB-.git
+```
+
+### 2. Masuk ke Folder Project
+
+```bash
+cd UTS-PEMWEB-
+```
+
+### 3. Install Dependencies
+
+```bash
+npm install
+```
+
+### 4. Jalankan Website
+
+```bash
+npm run dev
+```
+
+Buka browser dan akses:
+
+```text
+http://localhost:3000
+```
+
+### 5. Build Project
+
+Untuk memeriksa apakah project dapat dibangun untuk production, jalankan:
+
+```bash
+npm run build
+```
+
+## Halaman Website
+
+| Halaman | URL |
+|---|---|
+| Home | `/` |
+| About | `/about` |
+| Berita | `/berita` |
+| Detail Berita | `/berita/[id]` |
+
+## Sumber Informasi
+
+Informasi mengenai sekolah mengacu pada website resmi SMA Islam Al Azhar 16 BSB Semarang:
+
+https://www.smaialazhar16.sch.id
+
+## Tujuan Project
+
+Project ini dibuat untuk menerapkan konsep dasar pengembangan website menggunakan Next.js, termasuk App Router, reusable components, layout, navigasi menggunakan `next/link`, dynamic routing, dan styling menggunakan Tailwind CSS.
